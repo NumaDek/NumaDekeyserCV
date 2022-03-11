@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  color: rgb(65, 65, 65);
+  background-color: rgb(223, 223, 223);
+  margin: 0;
+  padding: 20px 0px;
+}
+
+/*-----------------------  CLASSES  ----------------------------*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-center {
+  justify-content: center;
+}
+
+.container-space {
+  justify-content: space-around;
+}
+
+.container-align {
+  align-items: center;
+}
+
+.page-wrapper {
+  width: 900px;
+  flex-wrap: wrap;
+  border-left: 1px solid rgb(68, 185, 255);
+  border-right: 1px solid rgb(68, 185, 255);
+}
+
+.star-rating {
+  height: 20px;
+}
+
+.rating-holder {
+  flex: 3;
+}
+
+.skill {
+  font-weight: bold;
+  flex: 3;
+}
+
+.skill-description {
+  min-width: 280px;
+  flex: 8;
+}
+
+.aside-article-title {
+  margin: 0px;
+  padding: 5px;
+  background-color: rgb(68, 185, 255);
+  text-align: center;
+}
+
+.aside-article-content {
+  text-align: justify;
+  margin: 0;
+  padding: 15px;
+}
+
+.aside-article-contact {
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.separator {
+  border-bottom: 2px solid rgb(68, 185, 255);
+}
+
+.separator-top {
+  border-top: 2px solid rgb(68, 185, 255);
+}
+
+.category {
+  margin: 5px 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.list {
+  margin: 5px 0px;
+}
+
+.cheeky {
+  margin-right: 20px;
+}
+
+.breather {
+  margin-bottom: 15px;
+}
+
+/*----------------------- HTML TAGS ----------------------------*/
+
+header {
+  min-height: 250px;
+}
+
+aside {
+  background-color: rgb(202, 225, 255);
+  flex: 4;
+}
+
+section {
+  background-color: rgb(234, 242, 253);
+  padding: 0px 15px;
+  flex: 8;
+}
+
+h2 {
+  margin: 3px 0px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+p {
+  margin: 0px;
+}
+
+footer {
+  height: 50px;
+}
+/*-----------------------    ID     ----------------------------*/
+
+#portrait {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgb(68, 185, 255);
+  border-radius: 100%;
+  margin: 10px;
+}
+
+#name {
+  text-decoration: underline;
+  text-decoration-color: rgb(68, 185, 255);
+}
+
+#foot {
+  background-color: rgb(234, 242, 253);
+  padding: 0px 15px;
+  flex: 8;
+}
+/*-----------------------  THASH  ------------------------------*/
+
+.height {
+  min-height: 300px;
+}
+
+h1 {
+  font-size: 2.8em;
+}
+
+li {
+  display: list-item;
+}
+
+@media (max-width: 1023px) {
+  body {
+    padding: 0px;
+  }
+
+  footer {
+    height: 0px;
+  }
+
+  #main-aside {
+    order: 2;
+  }
+
+  #main-section {
+    order: 1;
+  }
+}
